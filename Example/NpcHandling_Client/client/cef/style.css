@@ -1,0 +1,107 @@
+body {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+}
+
+.NpcHandling_Container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: solid 0.2vw rgb(0, 0, 0);
+    width: 25%;
+    height: 20%;
+}
+
+.NpcHandling_HeaderText {
+    position: absolute;
+    left: -0.5%;
+    top: -0.5%;
+    color: white;
+    text-align: center;
+    width: 101%;
+    font-size: 0.95vw;
+    font-family: arial;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.NpcHandling_WindowText {
+    position: absolute;
+    left: -0.5%;
+    width: 101%;
+    top: 11%;
+    text-align: center;
+    font-size: 0.70vw;
+    height: 60%;
+    font-family: arial;
+    color: white;
+    overflow-y: scroll;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NpcHandling_ButtonContainer {
+    position: absolute;
+    left: -0.5%;
+    width: 101%;
+    height: 30%;
+    top: 70%;
+    color: white;
+}
+
+.NpcHandling_ButtonStyle {
+    width: 30%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 0.6vw;
+    font-family: arial;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.NpcHandling_Button1 {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.NpcHandling_ButtonStyle:hover {
+    background-color: rgba(200, 200, 200, 0.8);
+    color: black;
+}
+
+.NpcHandling_Button2 {
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 0.20vw;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(100, 100, 100, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(200, 200, 200, 1);
+}
